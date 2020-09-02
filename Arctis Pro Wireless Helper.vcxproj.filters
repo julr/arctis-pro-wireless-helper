@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\Application.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ArctisProWireless.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AudioEndpoints.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Configuration.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HidDevice.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Application.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ArctisProWireless.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AudioEndpoints.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Configuration.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HidDevice.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Protcol.md" />
+    <None Include="Readme.md" />
+    <None Include="Arctis Pro Wireless Helper.licenseheader" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{a3686d4d-4161-4701-8933-4ef11b5f2a33}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="License.txt" />
+  </ItemGroup>
+</Project>
